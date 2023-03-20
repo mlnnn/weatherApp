@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search city">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </button>
+        </div>
+
+        <h1>
+            Kyiv, Ukraine
+        </h1>
+        <small>
+            Monday, October 31 <br>
+            13:05
+        </small>
+        <br>
+
+        <div class="all container">
+            <div class="row">
+                <div class="col">
+                    <div class="header">
+
+                        <div class="row header">
+
+
+                            <div class="text-center icon col">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="110" height="145" fill="currentColor"
+                                    class="bi bi-cloud-rain weather" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4.158 12.025a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm3 0a.5.5 0 0 1 .316.633l-1 3a.5.5 0 0 1-.948-.316l1-3a.5.5 0 0 1 .632-.317zm3 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm3 0a.5.5 0 0 1 .316.633l-1 3a.5.5 0 1 1-.948-.316l1-3a.5.5 0 0 1 .632-.317zm.247-6.998a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 11H13a3 3 0 0 0 .405-5.973zM8.5 2a4 4 0 0 1 3.976 3.555.5.5 0 0 0 .5.445H13a2 2 0 0 1 0 4H3.5a2.5 2.5 0 1 1 .605-4.926.5.5 0 0 0 .596-.329A4.002 4.002 0 0 1 8.5 2z" />
+                                </svg>
+                            </div>
+
+                            <div class="text-center info col">
+                                <div class="main-temp">14°
+                                    <small class="desc">Rain</small>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="more-details col">
+                    <div class="details container">
+                        <div class="text-center row">
+                            <div class="min-max col">
+                                15° <br>
+                                High<br>
+                                <br>
+                                8° <br>
+                                Low
+                            </div>
+                            <div class="wind-rain col">
+                                7mph <br>
+                                Wind<br>
+                                <br>
+                                90% <br>
+                                Rain
+                            </div>
+                            <div class="sun col">
+                                6:27 <br>
+                                Sunrise<br>
+                                <br>
+                                17:32 <br>
+                                Sunset
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="bottom">
+                    <div class="text-center row">
+                        <div class="col">
+
+
+
+                            <div class="tue day col">
+                                Tue <br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="80" fill="currentColor"
+                                    class="bi bi-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                </svg> <br>
+                                11°
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="wed day col">
+                                Wed <br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="80" fill="currentColor"
+                                    class="bi bi-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 
+                                    14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                </svg> <br>
+                                9°
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="thur day col">
+                                Thur <br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="80" fill="currentColor"
+                                    class="bi bi-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 
+                                    14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                </svg> <br>
+                                12°
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="fri day col">
+                                Fri <br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="80" fill="currentColor"
+                                    class="bi bi-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 
+                                    14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                </svg> <br>
+                                17°
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="sat day col">
+                                Sat <br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="80" fill="currentColor"
+                                    class="bi bi-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 
+                                    14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                </svg> <br>
+                                12°
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="sun day col">
+                                Sun <br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="80" fill="currentColor"
+                                    class="bi bi-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 
+                                    14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                </svg> <br>
+                                7°
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+</body>
+
+</html>
